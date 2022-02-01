@@ -1,0 +1,36 @@
+.imgsty{
+    width: 100px;
+}
+.btnposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.btnregistersty{
+background-color: #A71C24;
+border: none;
+border-radius: 6px;
+padding: 4px 20px;
+color: rgb(255, 255, 255);
+
+}
+.btnloginsty{
+    background-color: none;
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-right: 20px;
+}
+.dropsty{
+    color: rgb(255, 255, 255);
+}
+.navsty{
+    background-color: #000000; 
+    padding: 10px 20px 10px 20px; 
+}
+@media (max-width: 575.98px){
+    .btnposition {
+        display: initial;
+    }
+}

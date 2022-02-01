@@ -1,0 +1,71 @@
+.aboutsty{
+    background-color: #E5E5E5;
+    padding-top: 70px;
+    padding-bottom: 249px;
+}
+.pstyle{
+color: #000000;
+font-size: 16px;
+text-align: center;
+}
+.psty{
+  color: #A71C24;  
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.styingpostion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+ width: 100%;
+ top: 141px;
+}
+.possty{
+  position: relative;
+}
+.pstycard{
+  color: #3F3F3F;
+  font-size: 17px;
+  /* padding: 80px 20px 80px 20px; */
+  background: url("../img/pp.png") center top no-repeat ;
+  background-size: contain;
+  margin: 25px 20px;
+}
+.cntrimgs{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pdstycard{
+ color: #3F3F3F;
+}
+.pstycards{
+  font-weight: bold;
+  color: #3F3F3F;
+  padding-top: 10px;
+}
+.flexrow{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hcard{
+  height: 155px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) { 
+  .possty{
+    margin-top: 150px;
+  }
+  .cntr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ }

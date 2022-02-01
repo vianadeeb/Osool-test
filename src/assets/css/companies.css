@@ -1,0 +1,52 @@
+.imgsty {
+  width: 100px;
+}
+.imgsty1 {
+  width: 55px;
+}
+.compsty {
+  padding: 30px 0px;
+}
+.psty {
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #E5E5E5;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  .flexmob {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 60px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  
+  .imgsty{
+    margin: 11px;
+  }
+}

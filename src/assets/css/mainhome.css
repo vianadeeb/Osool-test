@@ -1,0 +1,57 @@
+.imgsty{
+    width: 100%;
+}
+.backsty{
+    background-color: #000000;
+    padding:50px 0px;
+}
+.psty{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    font-weight: bold;
+}
+.colstyp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 77px;
+    /* line-height: 56px;    */
+}
+.btnregistersty{
+    background-color: #A71C24;
+    border: none;
+    border-radius: 6px;
+    margin-left: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 6px 30px;
+    }
+    .btnloginsty{
+        background-color: none;
+        background-color: #000000;
+        border: none;
+        color: rgb(255, 255, 255);
+        padding-right: 4px;
+        font-size: 18px;
+    }
+/* // Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .colstyp{
+            padding-top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .backsty{
+            padding: 0px;
+        }
+        .flexmob{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            padding-bottom:20px;
+        }
+        
+     }

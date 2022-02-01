@@ -1,0 +1,77 @@
+.cardsty{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.imgcardsty{
+    width: 100%;
+    border-radius:4px 4px 0px 0px ;
+}
+.stytxt{
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 16px;
+}
+.styiconcard{
+    width: 20px;
+    padding-left: 4px;
+    color: #3F3F3F;
+}
+.spantxtcard{
+    font-size: 11px;
+    text-align: right;
+    float: right;
+    padding: 0px 8px 20px 8px;
+}
+.stybtn{
+padding: 10px 8px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content:space-between; */
+    font-size: 16px;
+}
+.btnregistersty{
+    background-color: #A71C24;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 9px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    width: 100%;
+    }
+    .btnloginsty{
+        background-color: none;
+        background-color: transparent;
+        border: none;
+        color: #3F3F3F;
+        padding-right: 4px;
+        font-size: 12px;
+    }
+    .marginstycard{
+        margin-bottom: 10px;
+    }
+    .styflexcircle{
+     display: flex;  
+     flex-direction: row; 
+     justify-content: right;
+     align-items: center;
+    }
+    .stycircle{
+        border-radius: 50%;
+        background-color: #000000;
+        padding: 10px;
+    }
+    .imgarrow{
+        width: 25px;
+    }
+    .sreadmore{
+        text-align: left;
+    }
+    .flexbtncard{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+margin-bottom: 20px;
+    }

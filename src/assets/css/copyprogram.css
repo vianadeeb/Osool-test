@@ -1,0 +1,34 @@
+.imgbookssty{
+    width: 95%;
+}
+.psty{
+    color: #A71C24;
+    font-size: 18px;
+    font-weight: bold;
+}
+.labelsty{
+    color: #000000;
+    float: right;
+    padding-bottom: 10px;
+}
+.starsty{
+    color: #A71C24;
+    
+    }
+    .btnstylogin{
+        width: 100%;
+        background-color: #A71C24;
+        border: none;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+.stycop{
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    .flexres{display: flex;
+    flex-direction: column-reverse;}
+  }

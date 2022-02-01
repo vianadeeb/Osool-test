@@ -1,0 +1,50 @@
+
+.backheader {
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .imgsty {
+    width:25px;
+    padding-right: 10px;
+  }
+  .textsty {
+    color: #ffffff;
+  }
+  .spansty{
+    color: #ffffff;
+    padding-right: 15px; 
+    text-decoration: none;
+  }
+  .vl {
+    border-left: 1px solid rgb(255, 255, 255);
+    height:20px;
+    padding-right: 10px;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #3f3f3f;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f3f3f;
+  }

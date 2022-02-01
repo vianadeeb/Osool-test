@@ -1,0 +1,87 @@
+.pstyle{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    .psty{
+      color: #A71C24;  
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .btnregistersty{
+        background-color: #A71C24;
+        border: none;
+        border-radius: 6px;
+        margin-left: 28px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        padding: 6px 30px;
+        margin-top: 30px;
+        }
+        .pstycontact{
+            font-weight: bold;
+
+        }
+        .hstycontact{
+           font-weight: bolder;
+        }
+        .imgsty{
+            width: 40px;
+            padding-bottom: 10px;
+        }
+        .contactussty{
+            background: url("../img/map.png") center top no-repeat fixed;
+           background-size: contain;
+           /* padding: 60px 0 40px 0; */
+           position: relative;
+           height: 100vh;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: row;
+           margin: 0px;
+           margin-top: 0px;
+           margin-bottom: 0px;
+           padding-top: 30px;
+           padding-bottom: 103px;
+           text-align: center;
+          }
+          .contactussty::before {
+           content: '';
+           position: absolute;
+           left: 0;
+           right: 0;
+           top: 0;
+           bottom: 0;
+           background: rgba#E5E5E5;
+           z-index: 9;
+          }
+          .contactussty .container{
+           position: relative;
+           z-index: 10;
+          }
+          .btnregisterstyres{
+              display: flex;
+              justify-content: center;
+                flex-direction: row;
+              align-items: center;
+              width: 100%;
+          }
+          .pflex{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+          }
+          .colflex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+          /* // Small devices (landscape phones, 576px and up) */
+          @media (max-width: 767.98px) { 
+            .contactussty{
+                background-size: cover;
+            }
+          }

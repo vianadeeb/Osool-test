@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>logo.png">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <style>
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+      color: #000000;
+      background-color: #fff;
+      border-color: #ffffff00 #ffffff00 #a71c24 !important;
+      border-bottom: 2px solid #A71C24 !important;
+    }
+
+    .nav-tabs .nav-link,
+    .nav-tabs .nav-link:focus,
+    .nav-tabs .nav-link:hover {
+      color: #000000;
+    }
+
+    .card-body {
+      padding: 0px !important;
+    }
+
+    @font-face {
+      font-family: Dubai;
+      src: url('../src/assets/font/Dubai-Bold.ttf');
+      src: url('../src/assets/font/Dubai-Light.ttf');
+      src: url('../src/assets/font/Dubai-Medium.ttf');
+      src: url('../src/assets/font/Dubai-Regular.ttf');
+    }
+
+    *,body{
+      font-family: Dubai;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

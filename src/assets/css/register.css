@@ -1,0 +1,87 @@
+.imgsty{
+    width: 120px;
+    }
+    .navsty{
+    background-color: #000000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    }
+    .footersty{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 13px;
+    }
+    .login {
+        width: 100%;
+        /* height: 100vh; */
+        margin-top:2%;
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-card { 
+        width: 400px;
+        padding: 10px;
+        background: #fff;
+        box-shadow:1px 1px 3px #c7c7c7;
+        text-align: center;
+        margin: 0px 10px;
+    
+    }
+    .btnstylogin{
+        width: 100%;
+        background-color: #A71C24;
+        border: none;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .spansty{
+        color: #A71C24; 
+        font-size: 12px;   
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .stylhaveaccount{
+        color: #3F3F3F;
+        font-size: 12px;  
+        padding-left: 3px;
+    }
+    .loginstyp{
+        font-size: 16px;
+        color: #3F3F3F;
+        font-weight: bold;
+    }
+    .starsty{
+    color: #A71C24;
+    
+    }
+    .labelsty{
+        color: #000000;
+        float: right;
+        padding-bottom: 10px;
+    }
+    .regsty{
+        margin-top: 20px;
+    }
+    .regsty1{
+        float: right;
+    }
+    .stylhaveaccount1{
+        color: #3F3F3F;
+        font-size: 12px;  
+        padding-left: 3px;
+    }
+    .spansty1{
+        color: #0090FF; 
+        font-size: 12px;   
+        cursor: pointer;
+    }
